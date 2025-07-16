@@ -1,0 +1,25 @@
+.sidebar {
+    min-height: 100vh;
+}
+.sidebar .nav-link:hover {
+    background-color: #495057;
+}
+
+.table-header {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#btnAgregar {
+    white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+    .table-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #btnAgregar {
+        width: 100%;
+    }
+}
